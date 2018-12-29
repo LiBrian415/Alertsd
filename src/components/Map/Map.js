@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-import { GOOGLEAPIKEY } from '../../../api_keys.js';
+import { GOOGLEAPIKEY } from '../../api_keys.js';
 
 const mapStyleJson = require('./GoogleMapStyles.json');
 

@@ -6,7 +6,7 @@ import Geocode from 'react-geocode';
 import { connect } from 'react-redux';
 import { alertsAddData } from '../../redux/actions';
 
-import { GOOGLEAPIKEY } from '../../../api_keys.js';
+import { GOOGLEAPIKEY } from '../../api_keys.js';
 
 Geocode.setApiKey(GOOGLEAPIKEY);
 
