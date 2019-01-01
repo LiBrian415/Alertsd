@@ -29,8 +29,8 @@ class Body extends Component {
             <div>
                 <Nav />
                 <Container className='mt-3 mb-3' style={mainContainer}>
-                    <List alerts={this.props.alerts}/>
-                    {/* <Map alerts={this.props.alerts}/> */}
+                    {/*<List alerts={this.props.alerts}/>*/}
+                    <Map alerts={this.props.alerts}/> 
                 </Container>
             </div>
         );
